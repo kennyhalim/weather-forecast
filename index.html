@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Forecast</title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+  <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
+  <script src="js/scripts.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/animate.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Weather Forecast</h1>
+      <p>This is a website that tells you the weather forecast for the next 5 days. <br>
+        Information contained in this website may not be accurate due to some variables that are not accumulated in the formula.
+        <strong>Be advised to not really trust this forecast!</strong></p>
+    </div>
+
+    <div class="container-fluid">
+      <div id="intro">
+        <h3>Seattle's Weather</h3><br>
+        <div id="button1">
+          <button type="button" class="btn btn-info" id="btnStart"><h5>Click to see forecast!</h5></button>
+        </div>
+      </div>
+
+      <div class="row" id="forecast">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-2">
+          <div class="panel panel-info">
+            <div class="panel-heading">Monday</div>
+            <div class="panel-body"><h4 id="weather1"></h4><p id="classStatus1"></p></div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="panel panel-info">
+            <div class="panel-heading">Tuesday</div>
+            <div class="panel-body"><h4 id="weather2"></h4><p id="classStatus2"></p></div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="panel panel-info">
+            <div class="panel-heading">Wednesday</div>
+            <div class="panel-body"><h4 id="weather3"></h4><p id="classStatus3"></p></div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="panel panel-info">
+            <div class="panel-heading">Thursday</div>
+            <div class="panel-body"><h4 id="weather4"></h4><p id="classStatus4"></p></div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="panel panel-info">
+            <div class="panel-heading">Friday</div>
+            <div class="panel-body"><h4 id="weather5"></h4><p id="classStatus5"></p></div>
+          </div>
+        </div>
+        <div class="col-md-1">
+        </div>
+        <button type="button" class="btn btn-info" id="checkClassStatus">Check Class</button>
+        <br><br>
+        <button type="button" class="btn btn-info" id="goBack">Main Page</button>
+      </div>
+
+
+      <div id="github">
+        <a href="https://github.com/kennyhalim" class="githublink"><img src="img/github2.png" alt="Kenny Github"></a>
+      </div>
+
+      <div id="kenny">
+        <p class="kennyhalim">&copy; <a href="http://kennyhalim.github.io/portfolio">Kenny Halim</a></p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

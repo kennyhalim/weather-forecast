@@ -1,0 +1,44 @@
+body {
+  background-color: white;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.jumbotron {
+  background-color: lightblue;
+  color: black;
+}
+
+.jumbotron h1, p {
+  text-align: center;
+}
+
+#forecast {
+  display: none;
+}
+
+#kenny, #github {
+  position: relative;
+}
+
+.kennyhalim {
+  position: absolute;
+  bottom: 0;
+  right:0;
+}
+
+#kenny a {
+  color: #50BFE6;
+}
+
+.githublink {
+  position: absolute;
+  bottom: 0;
+  left:0;
+}
+
+#github img {
+  height: 40px;
+  width: 40px;
+}
